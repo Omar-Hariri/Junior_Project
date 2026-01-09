@@ -1,0 +1,39 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# ------------------------------
+# Data (too large to version)
+# ------------------------------
+data/
+test_images/
+
+# ------------------------------
+# Models
+# ------------------------------
+models/V1/
+models/V2/
+
+# Allow only best small model
+!models/V3/
+!models/V3/best_model.keras
+
+# ------------------------------
+# Streamlit local/debug files
+# ------------------------------
+src/streamlit_app/app.py
+
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
