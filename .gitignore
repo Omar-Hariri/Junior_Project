@@ -26,6 +26,11 @@ models/V2/
 !models/V3/best_model.keras
 
 # ------------------------------
+# Local demos / experiments
+# ------------------------------
+src/demo_realtime.py
+
+# ------------------------------
 # Streamlit local/debug files
 # ------------------------------
 src/streamlit_app/app.py
