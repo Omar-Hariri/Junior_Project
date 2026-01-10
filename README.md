@@ -145,7 +145,7 @@ Image Preprocessing
         ↓
 CNN Model Inference
         ↓
-Prediction (Normal / Yawning)
+Prediction (Normal / Drowsy)
 ```
 
 ---
